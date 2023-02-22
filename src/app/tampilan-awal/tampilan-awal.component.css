@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/assets/img/background3.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;background-position: center;
+    overflow: hidden
+}
+button{
+    background: linear-gradient(180deg, #FED450 0%, #FF9826 100%);
+    position: relative;
+    top: 60px;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border: solid black;
+}
+.w{
+    position: relative;
+    top: 90px;
+    left: 40px;
+}
+.t{
+    position: relative;
+    top: 35px;
+}
+.j{
+    position: relative;
+    bottom: 390px;
+    left: 120px;
+}
+.z{
+    position: relative;
+    bottom: 390px;
+    left: 340px;
+}
+#typing {
+    position: relative;
+    bottom: 290px;
+    left: 200px;
+    width: 0ch;
+    color: black;
+    float: left;
+    font-family: sans-serif;
+    font-weight:bold;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(22) 1s infinite alternate;
+    }
+    @keyframes typing {
+    from {
+    width: 0ch;
+    }
+    to {
+    width: 27ch;
+    }
+    }
+    @keyframes crow {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+    }
+
+    #typted {
+        position: relative;
+        bottom: 170px;
+        left: 160px;
+        width: 0ch;
+        color: black;
+        float: left;
+        font-family: sans-serif;
+        font-weight:bold;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 5s steps(22) 1s infinite alternate;
+        }
+        @keyframes typing {
+        from {
+        width: 0ch;
+        }
+        to {
+        width: 35ch;
+        }
+        }
+        @keyframes crow {
+        from {
+        opacity: 0;
+        }
+        to {
+        opacity: 1;
+        }
+        }

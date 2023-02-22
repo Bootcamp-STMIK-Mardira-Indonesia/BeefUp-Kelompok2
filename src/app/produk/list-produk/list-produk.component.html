@@ -1,0 +1,53 @@
+<div class="container">
+    <div class="card p3 mt-5">
+        <h3 class="text-center py-2">judul</h3>
+        <button class="btn btn-success btn-sm m-3 w-25" [routerLink]="['/','produk','tambah']">tambah</button>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama Produk</th>
+                    <th>jenis produk</th>
+                    <th>Berat Produk</th>
+                    <th>Nama Produsen</th>
+                    <th>Kode Produsen</th>
+                    <th>Alamat Produsen</th>
+                    <th class="text-center">Aksi</th>
+                </tr>
+            </thead>
+                <!-- <tr>
+                <td>1</td>
+                <td>Panadol</td>
+                <td>obat-obatan</td>
+                <td>25Gr</td>
+                <td>Kimia Farma</td>
+                <td>29jhfdb</td>
+                <td>Garut</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>panadol extra</td>
+                    <td>obat-obatan</td>
+                    <td>25kg</td>
+                    <td>Kimia farma</td>
+                    <td>km9345</td>
+                    <td>Garut</td>
+                </tr> -->
+            <tbody>    
+                <tr *ngFor="let item of listProduk; let i = index">
+                    <td>{{i + 1}}</td>
+                    <td>{{item.produkNama}}</td>
+                    <td>{{item.produkJenis}}</td>
+                    <td>{{item.produkBerat}}</td>
+                    <td>{{item.produsenNama}}</td>
+                    <td>{{item.produsenJenis}}</td>
+                    <td>{{item.produsenAlamat}}</td>
+                    <td>
+                        <button class="btn btn-success btn-sm mr-2" [routerLink]="['/','produk','sunting',item.produkId]">sunting</button>
+                        <button class="btn btn-danger btn-sm" (click)="deleteProduk(item.produkId)">hapus</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

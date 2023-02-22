@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(/assets/img/background3.png);
+    height: 100vh;font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;background-position: center;
+    overflow: hidden
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    position: relative;
+    top: 50px;
+    
+  }
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  .imgl{
+    position: relative;
+    left: 50px;
+    top: 20px;
+  }
+  svg{
+    position: relative;
+    left: 1090px;
+    height: 30px;
+    width: 30px;
+    color: #000000;
+  }
+  .keluar{
+    position: relative;
+    color: white;
+    left: 1100px;
+  }
+  #mb{
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  .mb{
+    position: relative;
+    left: 20px;
+  }
+  p{
+    text-align: center;
+  }
+  a{
+    color: #000000;
+  }
+  .coba{
+    background: linear-gradient(180deg, #FED450 0%, #FF9826 100%);
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid black;
+    position: relative;
+    bottom: 380px;
+    left: 890px;
+}
+.s{
+    position: relative;
+    left: 155px;
+    bottom: 150px;
+}
+.h{
+  position: relative;
+  left: 110px;
+  bottom: 113px;
+}
+.w{
+    position: relative;
+    left: 450px;
+    }
+    .dm{
+        position: relative;
+        bottom: 40px;
+    }
+    .row{
+        position: relative;
+        bottom: 20px;
+    }

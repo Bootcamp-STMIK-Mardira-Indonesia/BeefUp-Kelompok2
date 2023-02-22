@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="card p-3 mt-3">
+        <h3 class="text-center">Halaman {{judul}} Produk</h3>
+        <form [formGroup]="formProduk">
+            <div class="mb-3">
+              <label>Nama Produk</label>
+              <input type="text" class="form-control" formControlName="produkNama">
+            </div>
+            <div class="mb-3">
+              <label>Jenis Produk</label>
+              <input type="text" class="form-control" formControlName="produkJenis">
+            </div>
+            <div class="mb-3">
+              <label>Berat Produk</label>
+              <input type="text" class="form-control" formControlName="produkBerat">
+            </div>
+            <div class="mb-3">
+              <label>Produsen ID</label>
+              <select formControlName="produsenId" class="form-control">
+                <option *ngFor="let item of listProdusen" value="{{item.produsenId}}">{{item.produsenNama}}</option>
+              </select>
+            </div>
+            <button type="button" class="btn btn-primary" (click)="save()">{{judul}}</button>
+        </form>
+    </div>
+</div>

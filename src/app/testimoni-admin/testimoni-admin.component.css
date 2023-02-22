@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/assets/img/background3.png);
+    height: 100vh;font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;background-position: center;
+    overflow: hidden
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    position: relative;
+    top: 50px;
+    
+  }
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  .imgl{
+    position: relative;
+    left: 50px;
+    top: 20px;
+  }
+  #p{
+    position: relative;
+    left: 1090px;
+    height: 30px;
+    width: 30px;
+    color: #000000;
+  }
+  .keluar{
+    position: relative;
+    color: white;
+    left: 1100px;
+  }
+  a{
+    color: #000000;
+  }
+  #mb{
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    left: 350px;
+    bottom: 20px;
+  }
+  p{
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+  }
+  .s{
+    position: relative;
+    bottom: 150px;
+    left: 855px;
+  }
+  .w{
+    position: relative;
+    left: 520px;
+    }
