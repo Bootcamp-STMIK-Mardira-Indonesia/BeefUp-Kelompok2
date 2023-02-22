@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;background-position: center;
+    overflow: hidden
+}
+header{
+  background: url(/assets/img/background3.png);
+  background-size: cover;
+  height: 20vh;
+  }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    position: relative;
+  }
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  .imgl{
+    position: relative;
+    left: 50px;
+  }
+  svg{
+    position: relative;
+    left: 1090px;
+    height: 30px;
+    width: 30px;
+    color: #000000;
+  }
+  .keluar{
+    position: relative;
+    color: white;
+    left: 1100px;
+  }
+  a{
+    color: #000000;
+  }
+  #mb{
+    background: url(/assets/img/b9d3bcc449a175e696fecb102245b47c\ 1.png);
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+    bottom: 50px;
+  }
+  p{
+    text-align: center;
+    font-size: 21px;
+  }
+  #bm{
+    position: relative;
+    bottom: 200px;
+    left: 50px;
+    background: linear-gradient(135deg, #C8E97C 0%, #5FB828 100%);
+  }
+  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .iqbal{
+    position: relative;
+    bottom: 396px;
+    left: 30px;
+  }
+  .rachmat{
+    position: relative;
+    bottom: 396px;
+    left: 280px;
+  }
+  .dolken{
+    position: relative;
+    bottom: 396px;
+    left: 535px;
+  }
+  .lia{
+    position: relative;
+    bottom: 396px;
+    left: 785px;
+  }
+  .hanifah{
+    position: relative;
+    bottom: 298px;
+    right: 175px;
+  }
+  .fika{
+    position: relative;
+    bottom: 298px;
+    left: 80px;
+  }
+  .novi{
+    position: relative;
+    bottom: 298px;
+    left: 335px;
+  }
+  .erlina{
+    position: relative;
+    bottom: 298px;
+    left: 585px;
+  }
